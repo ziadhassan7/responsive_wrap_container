@@ -9,3 +9,7 @@
 ## 1.0.1
 
 * Batch fix.
+
+## 1.0.2
+
+* Batch fix.
