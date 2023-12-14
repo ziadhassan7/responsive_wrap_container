@@ -1,6 +1,6 @@
 name: responsive_wrap_container
 description: A Responsive Container that behaves normally in small screens, but wraps your content in a box for big screens. (for Adaptive Web & Mobile designs)
-version: 1.0.2
+version: 1.0.3
 repository: https://github.com/ziadhassan7/responsive_wrap_container
 
 environment:
