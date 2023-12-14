@@ -2,10 +2,17 @@ library responsive_wrap_container;
 
 import 'package:flutter/material.dart';
 
+class Height {
+  static const double? wrap = null;
+  static const double fullScreen = double.infinity;
+}
+
 class ResponsiveContainer extends StatelessWidget {
   const ResponsiveContainer(
       {super.key,
       this.maxWidth = 600,
+      this.height = Height.fullScreen,
+      this.wrapHeight = false,
       this.colorContainer = Colors.white,
       this.colorBackground = const Color.fromRGBO(244, 244, 244, 1),
       required this.child});
@@ -18,6 +25,12 @@ class ResponsiveContainer extends StatelessWidget {
 
   /// Color for the responsive background (appears only when screen passes the maxWidth value)
   final Color? colorBackground;
+
+  /// Specify a fixed height (Full Screen by default)
+  final double? height;
+
+  /// Force wrap container's height around content
+  final bool wrapHeight;
 
   /// Your content
   final Widget child;
@@ -58,9 +71,17 @@ class ResponsiveContainer extends StatelessWidget {
   double? getHeight(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
 
-    return (screenWidth > 400)
-        ? null //wrap
-        : double.infinity; //full screen
+    if (screenWidth > 400) {
+      // should wrap?
+      if (wrapHeight) {
+        return Height.wrap;
+      } else {
+        return height; // user specified height (full screen by default)
+      }
+    } else {
+      //(on mobile)
+      return Height.fullScreen;
+    }
   }
 
   double getAdaptivePadding(BuildContext context) {
