@@ -8,12 +8,16 @@
 
 ## 1.0.1
 
-* Batch fix.
+* Patch fix.
 
 ## 1.0.2
 
-* Batch fix.
+* Patch fix.
 
 ## 1.0.3
 
-* Batch fix.
+* Patch fix.
+
+## 1.0.4
+
+* Patch fix.
