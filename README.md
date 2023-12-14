@@ -1,7 +1,8 @@
 A Responsive Container that behaves normally in small screens, but wraps your content in a box for big screens.
 Web & Mobile adaptive design.
 
-![280373467-2c2caaeb-3eb4-4fd8-a7f1-1f0c595a6bb5](https://github.com/ziadhassan7/responsive_wrap_container/assets/31738365/1c0b6be3-1986-42a2-871c-bb73d087119b)
+
+![Frame 2](https://github.com/ziadhassan7/responsive_wrap_container/assets/31738365/0ed64867-c41d-405c-864b-81428ee31ef1)
 
 ## 🎯 Features
 
