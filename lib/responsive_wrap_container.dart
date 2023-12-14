@@ -27,6 +27,7 @@ class ResponsiveContainer extends StatelessWidget {
   final Color? colorBackground;
 
   /// Specify a fixed height (Full Screen by default)
+  /// height can be set to Height.wrap or Height.fullScreen or a fixed value
   final double? height;
 
   /// Force wrap container's height around content
