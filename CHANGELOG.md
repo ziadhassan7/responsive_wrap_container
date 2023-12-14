@@ -5,3 +5,7 @@
 ## 1.0.0
 
 * Full Release.
+
+## 1.0.1
+
+* Batch fix.

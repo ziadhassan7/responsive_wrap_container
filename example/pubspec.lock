@@ -119,10 +119,10 @@ packages:
     dependency: "direct main"
     description:
       name: responsive_wrap_container
-      sha256: c3bfe89c5855deb63ddcc94367ac409707f1f404321955fdb5882084cf4dc659
+      sha256: "774ee168958711e071ef6df0fb098bb4fadd7b97e0d86a846439809238fbd42b"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.1"
+    version: "1.0.0"
   sky_engine:
     dependency: transitive
     description: flutter
